@@ -72,6 +72,10 @@ Entre las funcionalidades que pueden encontrarse:
 
 Esta estructura permite mantener las funcionalidades desacopladas y facilita futuras mejoras o ampliaciones del sistema.
 
+## template/
+
+La carpeta template contiene plantillas personalizadas para elementos como navegación y footer. Estas estructuras permiten agregar una mayor personalización a los menús y widgets de WordPress, facilitando la creación de menús superiores, footers dinámicos y componentes reutilizables dentro del tema.
+
 # Objetivo de la Arquitectura
 
 La estructura modular utilizada en los proyectos busca mantener una organización clara entre vistas, estilos, scripts y funcionalidades personalizadas, permitiendo desarrollar sitios más mantenibles, escalables y fáciles de administrar tanto a nivel visual como funcional.

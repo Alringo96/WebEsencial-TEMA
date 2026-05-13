@@ -1,0 +1,108 @@
+$primario: #f07c03;
+$blanco: #fff;
+$negro: #000;
+html{
+    height: 100%;
+}
+// Inicio general
+.boton {
+    background-color: $primario !important;
+    color: $blanco !important;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.vermas {
+    width: 10%;
+
+    @media (max-width:768px) {
+        width: 30%;
+    }
+}
+
+header {
+    background-color: $primario;
+
+    .logo {
+        width: 6rem;
+    }
+}
+
+footer {
+    margin-top: 10rem;
+    background-color: #181818;
+    height: 100%;
+
+    .logo {
+        width: 6rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: $blanco;
+    }
+}
+
+.botones-sig-ant {
+    a {
+        background-color: $primario;
+        text-decoration: none;
+        text-align: center;
+        color: $blanco;
+        padding: 0.5rem;
+        border-radius: 4rem;
+    }
+
+}
+
+.deshabilitado {
+    background-color: gray !important;
+}
+
+#quiz {
+    margin: 5rem 0;
+    display: none;
+}
+
+.boton-quiz {
+    outline: 2px solid $primario;
+
+    :hover {
+        background-color: $primario !important;
+    }
+}
+
+// Final general
+
+
+// Inicio home
+.home {
+    .seccion-1{
+        margin: 10rem auto;
+    }
+p{
+    margin-bottom: 0;
+}
+}
+
+// Final home
+// Inicio fundamentos de internet
+[data-filter] {
+    display: inline-block;
+    background: $primario;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+[data-tags]:not(.show) {
+    display: none !important;
+}
+
+// Final fundamentos de internet
+ul#menu{
+    margin-left: 0;
+}
+// Porbar a agrandar las tarjetas con hover

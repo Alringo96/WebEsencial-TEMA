@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+
+.boton {
+  background-color: #f07c03 !important;
+  color: #fff !important;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.vermas {
+  width: 10%;
+}
+@media (max-width: 768px) {
+  .vermas {
+    width: 30%;
+  }
+}
+
+header {
+  background-color: #f07c03;
+}
+header .logo {
+  width: 6rem;
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: #181818;
+  height: 100%;
+}
+footer .logo {
+  width: 6rem;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.botones-sig-ant a {
+  background-color: #f07c03;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 4rem;
+}
+
+.deshabilitado {
+  background-color: gray !important;
+}
+
+#quiz {
+  margin: 5rem 0;
+  display: none;
+}
+
+.boton-quiz {
+  outline: 2px solid #f07c03;
+}
+.boton-quiz :hover {
+  background-color: #f07c03 !important;
+}
+
+.home .seccion-1 {
+  margin: 10rem auto;
+}
+.home p {
+  margin-bottom: 0;
+}
+
+[data-filter] {
+  display: inline-block;
+  background: #f07c03;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+[data-tags]:not(.show) {
+  display: none !important;
+}
+
+ul#menu {
+  margin-left: 0;
+}/*# sourceMappingURL=style.css.map */
